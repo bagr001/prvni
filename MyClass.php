@@ -8,13 +8,9 @@
 class MyClass {	
 
 	private $x = 0;
-
-	private function foo(){
-		return $x++;
-	}
 	
-	public function bar(){
-		return $this->foo();
+	public function foo(){
+		return ++$x;
 	}
 
 }
