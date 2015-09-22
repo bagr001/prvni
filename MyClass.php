@@ -7,8 +7,10 @@
  */
 class MyClass {	
 
+	private $x = 0;
+
 	private function foo(){
-		return 1;
+		return $x++;
 	}
 	
 	public function bar(){
