@@ -17,4 +17,8 @@ class TestClass {
 		return $a + $b + $c;
 	}
 
+	public static function multiply($a, $b) {
+		return $a * $b;
+	}
+
 }
