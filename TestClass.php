@@ -13,8 +13,8 @@
  */
 class TestClass {
 
-	public static function add($a, $b) {
-		return $a + $b;
+	public static function add($a, $b, $x) {
+		return $a + $b + $x;
 	}
 
 }
