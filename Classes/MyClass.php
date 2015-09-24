@@ -5,12 +5,16 @@
  *
  * @author Vojtěch Lank
  */
-class MyClass {	
+class MyClass {
 
-	private $x = 0;
-	
-	public function foo(){
-		return ++$x;
+	private static $x = 0;
+
+	public static function foo(){
+		return ++$this->x;
+	}
+
+	public static function x(){
+		return $this->x;
 	}
 
 }

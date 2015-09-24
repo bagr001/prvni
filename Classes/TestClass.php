@@ -13,12 +13,12 @@
  */
 class TestClass {
 
-	public static function add($a, $b, $c, $d) {
+	public static function add($a, $b, $c = 0, $d = 0) {
 		return $a + $b + $c + $d;
 	}
 
-	public static function multiply($a, $b) {
-		return $a * $b;
+	public static function multiply($a, $b, $c = 0, $d = 0) {
+		return $a * $b * $c * $d;
 	}
 
 }
