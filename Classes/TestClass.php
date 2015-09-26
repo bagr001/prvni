@@ -35,7 +35,7 @@ class TestClass implements IMath {
 		echo 'DESKTOP';
 		echo 'DESKTOP2';
 		echo 'HUB';
-		echo 'XXX' ;
+		echo 'XXX';
 	}
 
 }
