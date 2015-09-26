@@ -10,11 +10,11 @@ class MyClass {
 	private static $x = 0;
 
 	public static function foo() {
-		return ++$this->x;
+		return ++self::$x;
 	}
 
 	public static function x() {
-		return $this->x;
+		return self::$x;
 	}
 
 }
