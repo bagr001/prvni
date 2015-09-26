@@ -30,4 +30,8 @@ class TestClass implements IMath {
 		return sqrt($a);
 	}
 
+	function foo(){
+		echo 'Ahoj';
+	}
+
 }
