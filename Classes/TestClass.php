@@ -26,4 +26,8 @@ class TestClass implements IMath {
 		}
 	}
 
+	public static function sqrt($a) {
+		return sqrt($a);
+	}
+
 }

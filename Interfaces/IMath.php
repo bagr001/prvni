@@ -16,4 +16,6 @@ interface IMath {
 
 	public static function multiply($a, $b, $c = 0, $d = 0);
 
+	public static function sqrt($a);
+
 }

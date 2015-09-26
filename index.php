@@ -14,4 +14,6 @@ echo '[2]: ' . MyClass::foo() . EOL . EOL;
 
 echo '[n + 1]: ' . TestClass::add(MyClass::x(), 1) . EOL . EOL;
 
-echo '[n*n]: ' . TestClass::multiply(MyClass::foo());
+echo '[n*n]: ' . TestClass::multiply(MyClass::foo()) . EOL . EOL;
+
+echo '[sqrt(n)]: ' . TestClass::sqrt(MyClass::foo());
