@@ -9,11 +9,11 @@ class MyClass {
 
 	private static $x = 0;
 
-	public static function foo(){
+	public static function foo() {
 		return ++$this->x;
 	}
 
-	public static function x(){
+	public static function x() {
 		return $this->x;
 	}
 

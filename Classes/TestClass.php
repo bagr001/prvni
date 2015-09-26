@@ -11,7 +11,7 @@
  *
  * @author Vojta
  */
-class TestClass {
+class TestClass implements IMath {
 
 	public static function add($a, $b, $c = 0, $d = 0) {
 		return $a + $b + $c + $d;
