@@ -17,8 +17,13 @@ class TestClass implements IMath {
 		return $a + $b + $c + $d;
 	}
 
-	public static function multiply($a, $b, $c = 0, $d = 0) {
-		return $a * $b * $c * $d;
+	public static function multiply($a, $b = null, $c = 1, $d = 1) {
+
+		if ($b === null) {
+			return $a * $a;
+		} else {
+			return $a * $b * $c * $d;
+		}
 	}
 
 }
