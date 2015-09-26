@@ -7,21 +7,16 @@ define('EOL', '<br />');
 
 include INTERFACE_DIR . '/IMath.php';
 include INTERFACE_DIR . '/ICount.php';
-include CLASS_DIR . '/MyClass.php';
 include CLASS_DIR . '/TestClass.php';
 include CLASS_DIR . '/Counter.php';
 
-echo '[1]: ' . MyClass::foo() . EOL;
-echo '[2]: ' . MyClass::foo() . EOL . EOL;
+echo '[1]: ' . Counter::inc() . EOL;
+echo '[2]: ' . Counter::inc() . EOL . EOL;
 
-echo '[n + 1]: ' . TestClass::add(MyClass::x(), 1) . EOL . EOL;
+echo '[n + 1]: ' . TestClass::add(Counter::count(), 1) . EOL . EOL;
 
-echo '[n*n]: ' . TestClass::multiply(MyClass::foo()) . EOL . EOL;
+echo '[n*n]: ' . TestClass::multiply(Counter::inc()) . EOL . EOL;
 
-echo '[sqrt(n)]: ' . TestClass::sqrt(MyClass::foo()) . EOL . EOL;
-
-Counter::inc();
-Counter::inc(8);
-Counter::dec(4);
+echo '[sqrt(n)]: ' . TestClass::sqrt(Counter::inc()) . EOL . EOL;
 
 echo '[count 3]: ' . Counter::count() . EOL . EOL;
