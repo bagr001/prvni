@@ -11,7 +11,7 @@
  *
  * @author Vojta
  */
-class Counter {
+class Counter implements ICount{
 
 	private static $c = 0;
 

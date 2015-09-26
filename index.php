@@ -6,6 +6,7 @@ define('INTERFACE_DIR', __DIR__ . '/Interfaces');
 define('EOL', '<br />');
 
 include INTERFACE_DIR . '/IMath.php';
+include INTERFACE_DIR . '/ICount.php';
 include CLASS_DIR . '/MyClass.php';
 include CLASS_DIR . '/TestClass.php';
 include CLASS_DIR . '/Counter.php';
