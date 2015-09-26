@@ -13,10 +13,14 @@
  */
 class Counter {
 
-	private static $c;
+	private static $c = 0;
 
-	public static function add($n = 1){
+	public static function inc($n = 1){
 		return self::$c += $n;
+	}
+
+	public static function dec($n = 1){
+		return self::$c -= $n;
 	}
 
 	public static function count(){
