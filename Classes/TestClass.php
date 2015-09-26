@@ -33,6 +33,7 @@ class TestClass implements IMath {
 	function foo(){
 		echo 'Ahoj';
 		echo 'DESKTOP';
+		echo 'DESKTOP2';
 	}
 
 }
