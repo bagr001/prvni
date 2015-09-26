@@ -19,7 +19,8 @@ echo '[n*n]: ' . TestClass::multiply(MyClass::foo()) . EOL . EOL;
 
 echo '[sqrt(n)]: ' . TestClass::sqrt(MyClass::foo()) . EOL . EOL;
 
-Counter::add();
-Counter::add(2);
+Counter::inc();
+Counter::inc(8);
+Counter::dec(4);
 
 echo '[count 3]: ' . Counter::count() . EOL . EOL;
