@@ -20,3 +20,5 @@ echo '[n*n]: ' . TestClass::multiply(Counter::inc()) . EOL . EOL;
 echo '[sqrt(n)]: ' . TestClass::sqrt(Counter::inc()) . EOL . EOL;
 
 echo '[count 3]: ' . Counter::count() . EOL . EOL;
+
+TestClass::bar('ahoj');
