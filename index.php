@@ -23,3 +23,4 @@ echo '[count 3]: ' . Counter::count() . EOL . EOL;
 
 TestClass::bar('ahoj');
 TestClass::bar2('ahojx');
+TestClass::bar3('ahojxxx');
