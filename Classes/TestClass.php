@@ -38,4 +38,8 @@ class TestClass implements IMath {
 		echo 'XXX';
 	}
 
+	public static function bar($x){
+		echo 'x: ' . $x;
+	}
+
 }
