@@ -22,3 +22,4 @@ echo '[sqrt(n)]: ' . TestClass::sqrt(Counter::inc()) . EOL . EOL;
 echo '[count 3]: ' . Counter::count() . EOL . EOL;
 
 TestClass::bar('ahoj');
+TestClass::bar2('ahojx');
